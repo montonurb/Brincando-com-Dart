@@ -1,0 +1,50 @@
+1) Escrever um programa que lê um determinado valor positivo e calcula seu dobro.
+
+2) Escreva um programa que leia dois números em ponto flutuante e imprima a soma desses números.
+
+3) Escreva um programa que leia um inteiro, calcule e imprima o quadrado no número lido.
+
+4) Escreva um programa que leia três números em ponto flutuante e imprima a média aritmética entre eles.
+
+5) Escreva um programa que inicialize uma variável com o dia de hoje, outra com o mês e outra com o ano e imprima a data na tela no formato “dd/mm/aaaa”.
+
+6) Escreva um programa que leia a altura e o raio de um cilindro circular e imprima o volume do mesmo, segundo a fórmula: V = pi.raio².altura ->obs: Imprima o volume com uma precisão de duas casas decimais.
+
+7) Faca um programa que converta uma medida de temperatura de Fahrenheit para Celsius. A partir da fórmula de conversão de Celsius para Fahrenheit, que é C = (5/9 (F-32)) , deduza a fórmula para a conversão de Fahrenheit para Celsius para que você possa resolver o problema.
+
+8) Escrever um programa em C que lê 3 valores reais a, b e c e calcula:
+  a) a área do triângulo que tem a por base e b por altura.
+  b) a área do círculo de raio c.
+  c) a área do trapézio que tem a e b por bases e c por altura.
+  d) a área do quadrado de lado b.
+  e) a área do retângulo de lados a e b.
+
+9) Escreva um programa leia uma quantidade de tempo dada em horas, minutos e segundos e converta para um número equivalente em segundos.
+
+10) Uma firma contrata um encanador a R$ 20,00 por dia. Escreva um programa que leia o número de dias trabalhados pelo encanador e imprima a quantia líquida que deverá ser paga, sabendo-se que são descontados 8% para o imposto de renda.
+
+11) Uma companhia telefônica opera com a seguinte tarifa: uma chamada telefônica com duração de 3 minutos custa R$ 1,15. Cada minuto adicional custa R$ 0,26. Escreva um programa que leia a duração total de uma chamada (em minutos) e calcule o total a ser pago.
+
+12) Em uma empresa os funcionários renovam o contrato por três anos. O salário sofrerá um reajuste de 7%, 6% e 5%, respectivamente, nos próximos três anos. Escreva um programa que leia o salário mensal atual do funcionário, e então, imprima o salário mensal para cada um dos três próximos anos.
+
+13) Faça um programa que peça ao usuário a quilometragem atual, a quilometragem anterior, a quantidade de litros consumida e informe a taxa de consumo (quilômetros por hora) de um automóvel.
+
+14) Faça um programa que peça ao usuário os tamanhos dos catetos de um triângulo retângulo e mostre na tela o valor de sua hipotenusa.
+
+15) No país de Brasilândia a moeda nacional é a merreca (M$). Sabe-se que sistema monetário de Brasilândia só utiliza moedas, não utiliza cédulas, e que os valores dos diferentes tipos de moeda são os seguintes:
+Valor (M$) Descrição
+    1,00    |   Moeda de uma merreca
+    5,00    |   Moeda de cinco merrecas
+    10,00   |   Moeda de dez merrecas
+    50,00   |   Moeda de cinqüenta merrecas
+    100,00  |   Moeda de cem merrecas
+
+Devido ao acúmulo de moedas por parte dos brasilândios, o Governo resolveu abrir uma concorrência internacional para o desenvolvimento de um software, escrito em linguagem C. Dado um valor em merreca, o programa deve calcular qual o número mínimo de moedas necessárias para perfazer o valor especificado.
+
+Exemplo: Se o valor for M$ 187,00, a saída de programa deve ser:
+
+    1 moeda(s) de M$ 100,00
+    1 moeda(s) de M$ 50,00
+    3 moeda(s) de M$ 10,00
+    1 moeda(s) de M$ 5,00
+    2 moeda(s) de M$ 1,00
