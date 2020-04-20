@@ -1,4 +1,6 @@
 main(){
+
+  // Operadores Unários
   int a = 3;
   int b = 4;
 
@@ -13,7 +15,7 @@ main(){
   print(a);
   print(b);
 
-  // Operador Unário
+  // Operador Lógico Unário (NOT)
 
   print(!true);
   print(!false);
