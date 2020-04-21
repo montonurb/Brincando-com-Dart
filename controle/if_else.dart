@@ -27,7 +27,7 @@ main() {
         if (nota >= 4){
           print('Recuperação + Trabalho! Sua nota é $nota.');
         } else {
-          print('Reprovado! Sua nota é $nota.');
+          print('Reprovado! Sua nota é $nota. :(');
         }
       }
     }
