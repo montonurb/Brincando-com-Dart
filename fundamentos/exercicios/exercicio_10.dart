@@ -2,7 +2,7 @@ import 'dart:io';
 
 main() {
   /**
-   *  25 = Escreva um programa que leia uma quantidade de tempo dada em horas, minutos e segundos e converta para um número
+   *  26 - Escreva um programa que leia uma quantidade de tempo dada em horas, minutos e segundos e converta para um número
    *  equivalente a segundos
    */
   const diariaEncanad = 20.0;

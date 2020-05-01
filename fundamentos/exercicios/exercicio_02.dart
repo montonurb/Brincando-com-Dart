@@ -1,8 +1,8 @@
 import 'dart:io';
 
-main() {
   // 18 - Escreva um programa que leia dois números em ponto flutuante e imprima a soma desses números.
-
+  
+main() {
   stdout.write("Informe o primeiro número: ");
   var entradaUsuario = stdin.readLineSync();
   var num1 = double.parse(entradaUsuario);

@@ -2,7 +2,7 @@ import 'dart:io';
 
 /**
  * 
- * 21 - Escreva um programa que leia 3 valores reais a, b e c e calcule:
+ * 24 - Escreva um programa que leia 3 valores reais a, b e c e calcule:
  * a) a área do triângulo que tem a por base e b por altura
  * b) a área do circulo de raio c
  * c) a área do trapézio que tem a e b por bases e c por altura
@@ -13,7 +13,7 @@ import 'dart:io';
 
 main() {
 
-  final double pi = 3.14;
+  const double pi = 3.14;
 
   stdout.write("Informe o primeiro valor: ");
   var entrada = stdin.readLineSync();

@@ -2,15 +2,15 @@ import 'dart:io';
 
 /**
  * 
- * 21 - Escreva um programa que leia a altura e o raio de um cilindro circular e imprima o volume do mesmo, segundo a fórmula: 
+ * 22 - Escreva um programa que leia a altura e o raio de um cilindro circular e imprima o volume do mesmo, segundo a fórmula: 
  * V = r * raio² * altura
- * Obs.: Imprima o volume com uma precisão de duas casas decimais.
+ * Obs.: Imprima o volume com uma precisão de duas casas decimais.***
  * 
  *  */
   
 
 main() {
-  final double pi = 3.14;
+  const double pi = 3.14;
   stdout.write("Informe a altura do cilindro: ");
   var entrada = stdin.readLineSync();
   var altura = double.parse(entrada);
