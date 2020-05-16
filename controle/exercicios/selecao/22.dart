@@ -1,11 +1,14 @@
 import 'dart:io';
-int main() {
+
+//REVER CÓDIGO
+
+void main() {
   stdout.write('Informe a categoria do filme: ');
   var entrada = stdin.readLineSync();
   var categFilme = entrada;
-  stdout.write('Informe o dia da locação: ');
-  entrada = stdin.readLineSync();
-  var diaLocacao = int.parse(entrada);
+  //stdout.write('Informe o dia da locação: ');
+  //entrada = stdin.readLineSync();
+  //var diaLocacao = int.parse(entrada);
   stdout.write('Informe o dia previsto para devolução: ');
   entrada = stdin.readLineSync();
   int diaPrevisto = int.parse(entrada);
@@ -54,7 +57,6 @@ int main() {
     total = precoCategoria + valorMulta;
   } else {
     print('Inválido!');
-    return 0;
   }
 print('|****************************************');
 print('|            Locadora Exemplo');

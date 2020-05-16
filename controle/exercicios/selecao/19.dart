@@ -1,6 +1,6 @@
 import 'dart:io';
 
-int main() {
+void main() {
   stdout.write('Informe o código do usuário: ');
   var entrada = stdin.readLineSync();
   var codUsuario = int.parse(entrada);

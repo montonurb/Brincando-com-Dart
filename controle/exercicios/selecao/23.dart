@@ -1,5 +1,5 @@
 import 'dart:io';
-int main() {
+void main() {
 
   stdout.write('Informe o número de dias: ');
   var entrada = stdin.readLineSync();
@@ -96,7 +96,6 @@ int main() {
     print('|******************************|');
     print('| Código do quarto é inválido. |');
     print('|******************************|');
-    return 0;
   }
 
   print('|************************************');

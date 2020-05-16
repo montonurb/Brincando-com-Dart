@@ -1,5 +1,5 @@
 import 'dart:io';
-int main() {
+void main() {
   stdout.write('Informe um número: ');
   var entrada = stdin.readLineSync();
   var num = int.parse(entrada);

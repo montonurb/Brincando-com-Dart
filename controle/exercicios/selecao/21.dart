@@ -1,5 +1,5 @@
 import 'dart:io';
-int main() {
+void main() {
   print('|*****************************************|');
   print('|   COD          CARGO            %       |');
   print('|    1        Escrituário        50%      |');
