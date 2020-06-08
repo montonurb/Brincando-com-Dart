@@ -1,4 +1,4 @@
-//Função genérica
+//Função genérica <E> esse E pode ser qualquer coisa
 List<E> filtrar<E>(List<E> lista, bool Function(E) fn) {
   List<E> novaLista = [];
   for(E elemento in lista) {
